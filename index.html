@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="description" content="Results summary component">
+  <meta name="keywords" content="Results Summary Component">
+  <meta name="author" content="Tiago Jose">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+
+<body>
+  <main class="main">
+    <section class="result">
+      <h2 class="result__title">Your Result</h2>
+      <div class="result__scores">
+        <strong class="result__score--current">76</strong>
+        <small class="result__score--maximum">of 100</small>
+      </div>
+    
+      <h3 class="result__message">Great</h3>
+      <p class="result__classification">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
+
+    <section class="summary">
+      <h1 class="summary__title">Summary</h1>
+      
+      <article class="summary-card summary-card--reaction">
+        <h4 class="summary-card__title">
+          <img src="./assets/images/icon-reaction.svg" alt="">
+          Reaction</h4>
+        <div class="summary-card__scores">
+          <strong class="summary-card__score--current">80</strong>
+          <p class="summary-card__score--maximum">/ 100</p>
+        </div>
+      </article>
+
+      <article class="summary-card summary-card--memory">
+        <h4 class="summary-card__title">
+          <img src="./assets/images/icon-memory.svg" alt="">
+          Memory</h4>
+        <div class="summary-card__scores">
+          <strong class="summary-card__score--current">92</strong>
+          <p class="summary-card__score--maximum">/ 100</p>
+        </div>
+      </article>
+
+      <article class="summary-card summary-card--verbal">
+        <h4 class="summary-card__title">
+          <img src="./assets/images/icon-verbal.svg" alt="">
+          Verbal</h4>
+        <div class="summary-card__scores">
+          <strong class="summary-card__score--current">61</strong>
+          <p class="summary-card__score--maximum">/ 100</p>
+        </div>
+      </article>
+
+      <article class="summary-card summary-card--visual">
+        <h4 class="summary-card__title">
+          <img src="./assets/images/icon-visual.svg" alt="">
+          Visual</h4>
+        <div class="summary-card__scores">
+          <strong class="summary-card__score--current">72</strong>
+          <p class="summary-card__score--maximum">/ 100</p>
+        </div>
+      </article>
+
+      <button class="summary__cta">
+        Continue
+      </button>
+    </section>
+  </main>
+</body>
+
+</html>
